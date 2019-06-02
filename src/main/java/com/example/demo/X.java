@@ -14,7 +14,7 @@ public class X {
 		method=RequestMethod.GET,
 		produces=MediaType.APPLICATION_JSON_VALUE)
 	public Map<String,Object> hello(){
-		System.out.println("********************hello()")
+		System.out.println("********************hello()");
 		Map<String,Object> rv = new HashMap<>();
 		rv.put("message", "hello");
 		return rv;
